@@ -1,19 +1,13 @@
 //ref project https://github.com/xwbash/UDT/tree/main/DropboxTool
 
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.IO;
 using UnityEditor;
 using UnityEngine;
-using Object = UnityEngine.Object;
 
 namespace DropboxTool
 {
     public class DropboxUploader : EditorWindow
     {
-        
-        /*[GUIColor(0.9f, 0.9f,0.9f)]*/
         public string dropboxAppName;
         
         public static string Err;

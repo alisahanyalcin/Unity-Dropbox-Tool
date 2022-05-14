@@ -1,12 +1,9 @@
 //ref project https://github.com/xwbash/UDT/tree/main/DropboxTool
 
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using UnityEngine;
-using Debug = UnityEngine.Debug;
 
 namespace DropboxTool
 {
@@ -38,7 +35,6 @@ namespace DropboxTool
                     if (name.Contains(".meta")) continue;
                     var dest = Path.Combine(destPath, name);
                     if (File.Exists(destPath + "/" + file)) continue;
-                    Debug.Log("File Name: " + destPath + "/" + name + " " + File.Exists(destPath + "/" + file));
                     File.Copy(file, dest);
                 }
 
