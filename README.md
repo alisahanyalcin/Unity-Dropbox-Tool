@@ -7,4 +7,4 @@ If you have installed the dropbox application in a different directory than the 
 * To use this tool dropbox's windows app must be installed.
 
 ## Special thanks
-* [xwbash](https://github.com/xwbash) for the original UDT project.
+* [xwbash](https://github.com/xwbash) for the original [UDT (DropboxTool)](https://github.com/xwbash/UDT/tree/main/DropboxTool) project.
