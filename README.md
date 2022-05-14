@@ -5,6 +5,7 @@ This project is a remake of the [UDT (DropboxTool)](https://github.com/xwbash/UD
 * To use this tool dropbox's windows app must be installed.
 
 <br>
+
 If you have installed the dropbox application in a different directory than the default, you need to define the `destPath` variable on `line 17` from the `DropboxUpload.cs` file.
 
 ## Special thanks
